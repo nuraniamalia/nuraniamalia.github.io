@@ -2,7 +2,7 @@
   "name": "pokecatch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nuraniamalia/tokopokemon",
+  "homepage": "http://nuraniamalia.github.io/tokopokemon",
   "dependencies": {
     "@apollo/client": "^3.3.20",
     "@material-ui/icons": "^4.11.2",
@@ -43,7 +43,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+	"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
