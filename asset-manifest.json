@@ -1,0 +1,35 @@
+{
+  "files": {
+    "static/js/0.27f8a578.chunk.js": "/tokopokemon/static/js/0.27f8a578.chunk.js",
+    "static/js/0.27f8a578.chunk.js.map": "/tokopokemon/static/js/0.27f8a578.chunk.js.map",
+    "static/js/1.628850bb.chunk.js": "/tokopokemon/static/js/1.628850bb.chunk.js",
+    "static/js/1.628850bb.chunk.js.map": "/tokopokemon/static/js/1.628850bb.chunk.js.map",
+    "MyPokemons.js": "/tokopokemon/static/js/MyPokemons.dffbd696.chunk.js",
+    "MyPokemons.js.map": "/tokopokemon/static/js/MyPokemons.dffbd696.chunk.js.map",
+    "PokemonDetails.js": "/tokopokemon/static/js/PokemonDetails.391384ae.chunk.js",
+    "PokemonDetails.js.map": "/tokopokemon/static/js/PokemonDetails.391384ae.chunk.js.map",
+    "Pokemons.js": "/tokopokemon/static/js/Pokemons.b39fcf4d.chunk.js",
+    "Pokemons.js.map": "/tokopokemon/static/js/Pokemons.b39fcf4d.chunk.js.map",
+    "main.css": "/tokopokemon/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/tokopokemon/static/js/main.e9000564.chunk.js",
+    "main.js.map": "/tokopokemon/static/js/main.e9000564.chunk.js.map",
+    "runtime-main.js": "/tokopokemon/static/js/runtime-main.8f7c1ebc.js",
+    "runtime-main.js.map": "/tokopokemon/static/js/runtime-main.8f7c1ebc.js.map",
+    "static/js/7.501d4aa0.chunk.js": "/tokopokemon/static/js/7.501d4aa0.chunk.js",
+    "static/js/7.501d4aa0.chunk.js.map": "/tokopokemon/static/js/7.501d4aa0.chunk.js.map",
+    "static/js/8.f2418a12.chunk.js": "/tokopokemon/static/js/8.f2418a12.chunk.js",
+    "static/js/8.f2418a12.chunk.js.map": "/tokopokemon/static/js/8.f2418a12.chunk.js.map",
+    "static/js/9.f8253d81.chunk.js": "/tokopokemon/static/js/9.f8253d81.chunk.js",
+    "static/js/9.f8253d81.chunk.js.map": "/tokopokemon/static/js/9.f8253d81.chunk.js.map",
+    "index.html": "/tokopokemon/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/tokopokemon/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/7.501d4aa0.chunk.js.LICENSE.txt": "/tokopokemon/static/js/7.501d4aa0.chunk.js.LICENSE.txt",
+    "static/js/8.f2418a12.chunk.js.LICENSE.txt": "/tokopokemon/static/js/8.f2418a12.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f7c1ebc.js",
+    "static/js/7.501d4aa0.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.e9000564.chunk.js"
+  ]
+}
