@@ -4,7 +4,6 @@ import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import styled from 'styled-components';
 import {
-  NavigationProps,
   MainRouterContext,
 } from '../contexts/MainRouterContext';
 import HomeIcon from '@material-ui/icons/Home';
@@ -44,7 +43,7 @@ const Container = styled.div`
 
 const CustomBottomNavigation = (props: RouteComponentProps) => {
   const { history } = props;
-  const { routers, selectedPath, updateRouter } = React.useContext(
+  const { selectedPath, updateRouter } = React.useContext(
     MainRouterContext
   );
 

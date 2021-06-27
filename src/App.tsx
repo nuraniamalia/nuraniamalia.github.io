@@ -11,7 +11,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContentText from '@material-ui/core/DialogContentText';
-import { ServiceWorkerContext } from './contexts/ServiceWorkerContext';
+// import { ServiceWorkerContext } from './contexts/ServiceWorkerContext';
 import { MyPokemonContext } from './contexts/MyPokemonContext';
 import { IconButton } from '@material-ui/core';
 import MDIcon from './components/MDIcon';
@@ -38,16 +38,16 @@ const App = () => {
 
   const { fetchMyPokemons } = React.useContext(MyPokemonContext);
 
-  const {
-    shouldUpdate,
-    refreshPage,
-    countDown,
-    checkAppInstalledStatus,
-  } = React.useContext(ServiceWorkerContext);
+  // const {
+  //   shouldUpdate,
+  //   refreshPage,
+  //   countDown,
+  //   checkAppInstalledStatus,
+  // } = React.useContext(ServiceWorkerContext);
 
   React.useEffect(() => {
     if (fetchMyPokemons) fetchMyPokemons();
-    if (checkAppInstalledStatus) checkAppInstalledStatus();
+    // if (checkAppInstalledStatus) checkAppInstalledStatus();
     // eslint-disable-next-line
   }, []);
 
@@ -77,7 +77,7 @@ const App = () => {
             {message}
           </Alert>
       </Snackbar>
-      <section>
+      {/* <section>
         <Dialog open={shouldUpdate}>
           <DialogTitle>Application update is available!</DialogTitle>
           <DialogContent>
@@ -89,7 +89,7 @@ const App = () => {
             <Button onClick={refreshPage}>{`Reload ${countDown}`}</Button>
           </DialogActions>
         </Dialog>
-      </section>
+      </section> */}
       <OverlayLoading />
     </div>
   );

@@ -19,7 +19,7 @@ export type Props = {
 };
 
 export const Chip = (props: Props) => {
-  const { value, className } = props;
+  const { value } = props;
 
   return (
     <StyledChip className={(value)}>
