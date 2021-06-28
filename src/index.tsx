@@ -6,7 +6,6 @@ import { SnackbarStore } from './contexts/SnackbarContext';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { COLORS } from './config';
 import { OverlayLoadingStore } from './contexts/OverlayLoadingContext';
-import { ServiceWorkerStore } from './contexts/ServiceWorkerContext';
 import { WindowStackStore } from './contexts/WindowStackContext';
 import { MainRouterStore } from './contexts/MainRouterContext';
 import {
@@ -60,21 +59,17 @@ const generateAppComponent = (props?: ServerProps) => {
     <ApolloProvider client={client}>
     <OverlayLoadingStore>
       <SnackbarStore>
-        <ServiceWorkerStore>
           <MainRouterStore>
             <WindowStackStore>
               <PokemonStore pokemon={pokemon} pokemons={pokemons}>
                 <MyPokemonStore>
                   <MuiThemeProvider theme={MUITheme}>
-                    
                       <App />
-                   
                   </MuiThemeProvider>
                 </MyPokemonStore>
               </PokemonStore>
             </WindowStackStore>
           </MainRouterStore>
-        </ServiceWorkerStore>
       </SnackbarStore>
     </OverlayLoadingStore>
     </ApolloProvider>

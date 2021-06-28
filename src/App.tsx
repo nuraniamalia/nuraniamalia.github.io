@@ -11,7 +11,6 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContentText from '@material-ui/core/DialogContentText';
-// import { ServiceWorkerContext } from './contexts/ServiceWorkerContext';
 import { MyPokemonContext } from './contexts/MyPokemonContext';
 import { IconButton } from '@material-ui/core';
 import MDIcon from './components/MDIcon';
@@ -37,13 +36,6 @@ const App = () => {
   } = React.useContext(SnackbarContext);
 
   const { fetchMyPokemons } = React.useContext(MyPokemonContext);
-
-  // const {
-  //   shouldUpdate,
-  //   refreshPage,
-  //   countDown,
-  //   checkAppInstalledStatus,
-  // } = React.useContext(ServiceWorkerContext);
 
   React.useEffect(() => {
     if (fetchMyPokemons) fetchMyPokemons();
@@ -77,19 +69,6 @@ const App = () => {
             {message}
           </Alert>
       </Snackbar>
-      {/* <section>
-        <Dialog open={shouldUpdate}>
-          <DialogTitle>Application update is available!</DialogTitle>
-          <DialogContent>
-            <DialogContentText>
-              Click reload to update the app
-            </DialogContentText>
-          </DialogContent>
-          <DialogActions>
-            <Button onClick={refreshPage}>{`Reload ${countDown}`}</Button>
-          </DialogActions>
-        </Dialog>
-      </section> */}
       <OverlayLoading />
     </div>
   );

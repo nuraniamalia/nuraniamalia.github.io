@@ -24,11 +24,11 @@ const BaseRoute = (props: any) => {
 
   return (
     <PosedContainer
-      appinstall={isInstallPromptUIShowed}
+      // appinstall={isInstallPromptUIShowed}
       pose={isWindowActive ? 'inactive' : 'active'}
       initialPose="active"
     >
-      <AppInstall />
+      {/* <AppInstall /> */}
       {props.children}
     </PosedContainer>
   );
